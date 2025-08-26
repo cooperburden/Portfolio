@@ -1,6 +1,7 @@
 import ProjectCard from './ProjectCard'
 import ResumeCard from './ResumeCard'
 import LinkedInCard from './LinkedInCard'
+import GitHubCard from './GitHubCard'
 import RapNameGenerator from './RapNameGenerator'
 import RunningGame from './RunningGame'
 import SkillsCarousel from './SkillsCarousel'
@@ -24,6 +25,7 @@ const ProjectsSection = ({ show, projects }: ProjectsSectionProps) => {
       <div className="projects">
         <ResumeCard />
         <LinkedInCard />
+        <GitHubCard />
       </div>
       <SkillsCarousel />
       <h2 className="section-header">Projects</h2>
