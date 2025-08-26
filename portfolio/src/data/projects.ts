@@ -23,6 +23,12 @@ export const projects: Project[] = [
     description: "A web application for missionaries to learn more about the places they are serving in. Login with\nUsername: coop\nPassword: 12345",
     link: "https://missionaryport.onrender.com/",
     imageUrl: "./missionary-port-preview.png"
+  },
+  {
+    title: "Mavericks",
+    description: "Help the Dallas Mavericks evaluate their options for the 2025 NBA draft using this NBA Big Board I created!",
+    link: "https://github.com/cooperburden/Mavericks.git",
+    imageUrl: "./images/mavericks.jpg"
   }
   // Add more projects here as needed
 ] 
