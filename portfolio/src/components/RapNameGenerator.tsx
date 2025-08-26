@@ -33,7 +33,7 @@ const RapNameGenerator = () => {
   useEffect(() => {
     const checkBackend = async () => {
       try {
-        const response = await fetch('http://localhost:3001/test');
+        const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/test`);
         if (response.ok) {
           setBackendStatus('online');
         } else {
@@ -61,7 +61,7 @@ const RapNameGenerator = () => {
     setError('');
     try {
       // Call the backend API to generate a rap name
-      const response = await fetch('http://localhost:3001/generate-rap-name', {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/generate-rap-name`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -162,7 +162,7 @@ const RapNameGenerator = () => {
     setError('');
     try {
       console.log('Sending request to generate rapper image...');
-      const response = await fetch('http://localhost:3001/generate-rapper-image', {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/generate-rapper-image`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
