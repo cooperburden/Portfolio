@@ -27,7 +27,7 @@ export const projects: Project[] = [
   {
     title: "Mavericks",
     description: "Help the Dallas Mavericks evaluate their options for the 2025 NBA draft using this NBA Big Board I created!",
-    link: "https://github.com/cooperburden/Mavericks.git",
+    link: "https://mavericks-draft-hub-2025.netlify.app/",
     imageUrl: "./images/mavericks.jpg"
   }
   // Add more projects here as needed
