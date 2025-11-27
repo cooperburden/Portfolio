@@ -18,7 +18,7 @@ const ResumeCard = () => {
       </div>
       <div className={`resume-options ${showOptions ? 'show' : ''}`}>
         <a 
-          href="/resume.pdf" 
+          href="/Cooper Burden Resume M 2025.pdf" 
           download 
           className="resume-button download"
           onClick={(e) => e.stopPropagation()}
@@ -27,7 +27,7 @@ const ResumeCard = () => {
         </a>
         <button 
           className="resume-button preview"
-          onClick={() => window.open('/resume.pdf', '_blank')}
+          onClick={() => window.open('/Cooper Burden Resume M 2025.pdf', '_blank')}
         >
           Preview
         </button>
