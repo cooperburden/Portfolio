@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f0f" />
+      <stop offset="100%" stop-color="#1f1f1f" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#bg)" rx="12" />
+  <text x="40" y="70" font-family="'Fira Code', monospace" font-size="24" fill="#e50914" font-weight="bold">Netflix Wrapped</text>
+  <text x="40" y="105" font-family="'Fira Code', monospace" font-size="14" fill="#e6f1ff">Streamlit Dashboard</text>
+  <line x1="40" y1="120" x2="360" y2="120" stroke="#e50914" stroke-width="2" opacity="0.6" />
+  <polyline points="40,150 120,130 200,160 280,140 360,155" fill="none" stroke="#64ffda" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="120" cy="130" r="6" fill="#64ffda" />
+  <circle cx="200" cy="160" r="6" fill="#64ffda" />
+  <circle cx="280" cy="140" r="6" fill="#64ffda" />
+</svg>
+

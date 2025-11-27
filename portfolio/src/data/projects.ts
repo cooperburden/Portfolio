@@ -29,6 +29,12 @@ export const projects: Project[] = [
     description: "Help the Dallas Mavericks evaluate their options for the 2025 NBA draft using this NBA Big Board I created!",
     link: "https://mavericks-draft-hub-2025.netlify.app/",
     imageUrl: "./images/mavericks.jpg"
+  },
+  {
+    title: "Netflix Wrapped",
+    description: "Discover personalized Netflix viewing insights through an interactive Streamlit dashboard featuring charts, stats, and curated recommendations.",
+    link: "https://netflixwrapped.streamlit.app/",
+    imageUrl: "./netflix-wrapped.svg"
   }
   // Add more projects here as needed
 ] 
